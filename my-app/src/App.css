@@ -6,3 +6,21 @@
   color: white;
   text-align: center;
 }
+.page-wrap {
+  margin: 40px;
+}
+
+.headline {
+  color: #1E293D;
+}
+.shortlist-wrap {
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-gap: 10px;
+}
+.list-format {
+  list-style-type: none;
+}
+.attributes {
+  color: #000000;
+}
