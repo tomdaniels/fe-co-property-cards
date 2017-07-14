@@ -8,15 +8,11 @@ import Component from './app';
 const fixtureGroups = [
   {
     component: Component,
-    fixtures: {
-      'One Column': {
         props: {
           rooms: '5 beds, 3 baths, 2 parking',
           address: '20 Fuller Avenue, Earlwood',
           inspection: 'Thu, 29 Jun - 6:00PM',
           auction: '"Sat, 1 Jul - 1:00PM"'
-        },
-      },
     },
   },
 ];

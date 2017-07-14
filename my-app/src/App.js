@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './app.css';
+import fixtureGroups from './index.js'
 
 class App extends Component {
   propTypes: {
@@ -9,17 +10,27 @@ class App extends Component {
   }
   render() {
     return (
-      <div className='page-wrap'>
-        <div className='header-wrap'>
-          <h1 className='headline'>Shortlist</h1>
-        </div>
-        <div className='shortlist-wrap'>
+      <div className='container-wrap'>
+        <div className='prop-specifics'>
           <ul className='list-format'>
-            <li className='attributes'>{this.props.rooms}</li>
-          </ul>
-          </div>
+            <li>5 beds, 3 baths, 2 parking</li>
+            <a href='https://domain.com.au/2013644419' className='prop-address'>20 Fuller Avenue, Earlwood</a>
+            </ul>
+        </div>
+        <hr className='section-separate'></hr>
+        <div className='prop-dates-wrap'>
+            <div>
+              <div className='dates-left'>Inspection</div>
+              <span className='dates-right'>Thu, 29 Jun - 6:00PM</span>
+            </div>
+            <div>
+              <div className='dates-left'>Auction</div>
+              <span className='dates-right-auc'>Sat, 1 Jul - 1:00PM</span>
+            </div>
+        </div>
       </div>
     );
   }
-}
+};
+
 export default App;

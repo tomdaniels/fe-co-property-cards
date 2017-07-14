@@ -1,26 +1,34 @@
-
-.app-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.container-wrap {
+  width: 20%;
+}
+.prop-info-wrap {
+  color: #434D60;
   text-align: center;
-}
-.page-wrap {
-  margin: 40px;
-}
-
-.headline {
-  color: #1E293D;
-}
-.shortlist-wrap {
-  display: grid;
-  grid-template-columns: 100px 100px 100px;
-  grid-gap: 10px;
 }
 .list-format {
   list-style-type: none;
 }
-.attributes {
-  color: #000000;
+.prop-address {
+  text-decoration: none;
+  font-size: 18px;
+  color: #9096A1;
+}
+.prop-dates-wrap {
+  padding-left: 40px;
+}
+.dates-left {
+  display: inline-block;
+}
+.dates-left+.dates-right:after {
+  display: block;
+}
+.dates-right {
+  padding-left: 10px;
+  color: #9096A1;
+  margin-left: 10px;
+}
+.dates-right-auc {
+  padding-left: 20px;
+  color: #9096A1;
+  margin-left: 20px;
 }
