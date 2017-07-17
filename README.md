@@ -1,9 +1,11 @@
 # fe-co-property-cards
 
-This application was created using the React.js framework. Built with
+This application was created using the React.js framework. Bootstrapped with
 `create-react-app`
 
 The Data Array provided was used to create the props for the shortlist card component which can later be replaced with an actual call to an API endpoint.
+
+Property addresses are clickable to mimic the real Domain.com.au experience! 
 
 ## Getting Started
 
