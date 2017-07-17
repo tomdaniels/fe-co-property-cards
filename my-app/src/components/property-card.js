@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import './property-card.css';
 
 class PropertyCard extends React.Component {
@@ -22,8 +22,8 @@ class PropertyCard extends React.Component {
                 <span className='dates-right'>{this.props.Inspection}</span>
               </div>
                 <div>
-                  <div className='dates-left'>Auction</div>
-                  <span className='dates-right-auc'>{this.props.Auction}</span>
+                  <div id='class-to-change' className='dates-left-auc'>Auction</div>
+                  <span id ='class-to-check' className='dates-right-auc'>{this.props.Auction}</span>
                 </div>
             </div>
         </div>

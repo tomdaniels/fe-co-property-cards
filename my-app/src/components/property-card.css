@@ -47,6 +47,9 @@
 .dates-left {
   display: inline-block;
 }
+.dates-left-auc {
+  display: inline-block;
+}
 .dates-left+.dates-right:after {
   display: block;
 }
@@ -59,6 +62,9 @@
   padding-left: 20px;
   color: #9096A1;
   margin-left: 20px;
+}
+.auction {
+  display: none;
 }
 .thumbnail {
   width:400px;
