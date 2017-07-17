@@ -1,7 +1,6 @@
-.outer-wrap {
-  padding: 20px 50px;
-}
 .container-wrap {
+  display: inline-block;
+  margin: 10px;
   width: 400px;
   background-color: #ffffff;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -9,10 +8,6 @@
 }
 .container-wrap:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-}
-.main-headline {
-  font-family: proximanova, sans-serif;
-  color: #263248;
 }
 .prop-info-wrap {
   color: #434D60;
