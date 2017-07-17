@@ -8,7 +8,7 @@ class PropertyCard extends React.Component {
         <div className='card-wrap'>
           <div className='prop-specifics'>
             <div className='thumbnail' style={{backgroundImage: `url("${this.props.Image}")`,}}>
-            <div className='status'>{this.props.Status}</div>
+              <div className='status'>{this.props.Status}</div>
             </div>
             <ul className='list-format'>
               <li className='attributes'>{this.props.Rooms}</li>
@@ -25,9 +25,9 @@ class PropertyCard extends React.Component {
                   <div className='dates-left'>Auction</div>
                   <span className='dates-right-auc'>{this.props.Auction}</span>
                 </div>
-              </div>
             </div>
-          </div>
+        </div>
+      </div>
     );
   }
 };
