@@ -1,0 +1,63 @@
+.container-wrap {
+  display: inline-block;
+  margin: 10px;
+  width: 400px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.container-wrap:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.prop-info-wrap {
+  color: #434D60;
+}
+.list-format {
+  list-style-type: none;
+  padding-left: 20px;
+}
+.status {
+  font-family: proximanova, sans-serif;
+  font-size: 25px;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-top: 250px;
+}
+.prop-specifics {
+  font-family: proximanova, sans-serif;
+}
+.attributes {
+  padding-bottom: 5px;
+}
+.prop-address {
+  padding-left: 2px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #9096A1;
+}
+.prop-dates-wrap {
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+.dates-left {
+  display: inline-block;
+}
+.dates-left+.dates-right:after {
+  display: block;
+}
+.dates-right {
+  padding-left: 10px;
+  color: #9096A1;
+  margin-left: 10px;
+}
+.dates-right-auc {
+  padding-left: 20px;
+  color: #9096A1;
+  margin-left: 20px;
+}
+.thumbnail {
+  width:400px;
+  height:300px;
+  background-position: center;
+  background-size: cover;
+}

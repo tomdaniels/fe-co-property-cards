@@ -1,11 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Shortlist",
+  "name": "Domain Shortlist",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "https://m.domain.com.au/Content/images/domain_app_logo.png"
     }
   ],
   "start_url": "./index.html",
