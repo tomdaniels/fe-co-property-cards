@@ -32,7 +32,10 @@
 }
 .status {
   font-family: proximanova, sans-serif;
-  font-size: 35px;
+  font-size: 25px;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-top: 250px;
 }
 .prop-specifics {
   font-family: proximanova, sans-serif;
@@ -67,5 +70,8 @@
   margin-left: 20px;
 }
 .thumbnail {
-  width: 100%;
+  width:400px;
+  height:300px;
+  background-position: center;
+  background-size: cover;
 }

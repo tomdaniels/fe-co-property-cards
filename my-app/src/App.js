@@ -9,9 +9,10 @@ class App extends React.Component {
         <div className='container-wrap'>
           <div className='card-wrap'>
             <div className='prop-specifics'>
-              <img className='thumbnail' alt='Property Thumbnail' src={this.props.imageUrl}/>
+              <div className='thumbnail' style={{backgroundImage: `url("${this.props.imageUrl}")`,}}>
+              <div className='status'>{this.props.status}</div>
+              </div>
               <ul className='list-format'>
-                <li className='status'>{this.props.status}</li>
                 <li className='attributes'>{this.props.attributes}</li>
                 <a href='https://domain.com.au/2013644419' className='prop-address'>{this.props.address}</a>
               </ul>
