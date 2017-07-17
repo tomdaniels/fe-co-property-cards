@@ -9,7 +9,7 @@ The Data Array provided was used to create the props for the shortlist card comp
 
 To view the application simply clone it onto your machine and run it with yarn!
 ```terminal
-cd fe-co-property-cards/my-app
 git clone https://github.com/tomdaniels/fe-co-property-cards
+cd fe-co-property-cards/my-app
 yarn start
 ```
