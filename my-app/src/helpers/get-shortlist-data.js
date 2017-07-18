@@ -21,7 +21,7 @@ const shortlistData = [{
 "Rooms":"5 beds, 3 baths, 3 parking",
 "Address":"16 Coronation Avenue, Mosman",
 "Inspection":"Wed, 28 Jun - 11:30AM",
-"Auction":""
+"Auction":" "
 },{
 "AdId":2012998012,
 "Image":"https://b.domainstatic.com.au/2012998012_1_pi_170216_061625-w4488-h2521-w800-h600",
@@ -29,7 +29,7 @@ const shortlistData = [{
 "Rooms":"6 beds, 5 baths, 2 parking",
 "Address":"33 Shellbank Avenue, Mosman",
 "Inspection":"Contact agent",
-"Auction":""
+"Auction":" "
 },{
 "AdId":2013609190,
 "Image":"https://b.domainstatic.com.au/2013609190_1_pi_170522_125920-w6750-h4500-w800-h600",
@@ -37,7 +37,7 @@ const shortlistData = [{
 "Rooms":"5 beds, 5 baths, 2 parking",
 "Address":"9 Plunkett Road, Mosman",
 "Inspection":"Thu, 29 Jun - 11:30AM",
-"Auction":""
+"Auction":" "
 },{
 "AdId":2011088800,
 "Image":"https://b.domainstatic.com.au/w800-h600-2011088800_1_pi_160630_080553",
@@ -45,7 +45,7 @@ const shortlistData = [{
 "Rooms":"6 beds, 9 baths, 5 parking",
 "Address":"12-14 Hopetoun Avenue, Mosman",
 "Inspection":"Contact agent",
-"Auction":""
+"Auction":" "
 }];
 
 export default shortlistData;

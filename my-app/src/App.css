@@ -7,12 +7,14 @@
 .background {
   background-color: #F2F5F7;
 }
-
 .outer-wrap {
   padding: 20px 50px;
 }
-
 .main-headline {
   font-family: proximanova, sans-serif;
   color: #263248;
+  margin-left: 120px;
+}
+.shortlist-whole {
+  margin-left: 120px;
 }
