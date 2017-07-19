@@ -1,0 +1,36 @@
+.filter-style {
+  list-style-type: none;
+  display: flex;
+  flex-flow: row;
+  flex-basis: auto;
+  justify-content: flex-end;
+  margin-right: 140px;
+  line-height: 40px;
+}
+.filter-op {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.filter-header {
+  color: #9096A1;
+  padding-right: 10px;
+}
+.btn {
+  padding: 20px 20px;
+  text-decoration: none;
+  color: #263248;
+}
+.btn:hover {
+  outline: #263248 solid thin;
+  color: #263248;
+}
+.btn:active {
+  color: #ffffff;
+  background-color: #263248;
+  border-radius: 5px;
+}
+.btn:focus {
+  color: #ffffff;
+  background-color: #263248;
+  border-radius: 5px;
+}
