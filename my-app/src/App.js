@@ -1,7 +1,7 @@
 import React from 'react';
-import PropertyCard from './components/property-card';
+import PropertyCard from './components/property-cards/property-card';
 import shortlistData from './helpers/get-shortlist-data';
-import FilterOptions from './components/filter-bar';
+import FilterOptions from './components/filter/filter-bar';
 import './App.css';
 
 class App extends React.Component {
